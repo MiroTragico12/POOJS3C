@@ -44,3 +44,5 @@ const triangulo1 = new Triangulo('tipo',22,300)
 triangulo1.calculaArea();
 retangulo1.calculaArea();
 retangulo1.verificaQuadrado();
+
+const retangulo2 = new Retangulo(22,133);
