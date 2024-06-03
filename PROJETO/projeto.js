@@ -22,11 +22,11 @@ class Cachorro extends Animal{
         return console.log("AU AU AU");
     }
     cadastraCachorro(){
-        const nome = prompt("\nInforme o nome do seu cachorro:");
-        const raca = prompt("\nInforme a raça:");
-        const cor = prompt("\nInforme a cor do seu cachorro:");
-        const peso = parseFloat(prompt("\nInforme o peso do seu cachorro:"));
-        const tamanho = parseFloat(prompt("\nInforme o tamanho do seu cachorro:"));
+        const nome = prompt("Informe o nome do seu cachorro:");
+        const raca = prompt("Informe a raça:");
+        const cor = prompt("Informe a cor do seu cachorro:");
+        const peso = parseFloat(prompt("Informe o peso do seu cachorro:"));
+        const tamanho = parseFloat(prompt("Informe o tamanho do seu cachorro:"));
         
         const dono = new Humano();
         dono.cadastraHumano();
@@ -45,11 +45,11 @@ class Gato extends Animal{
         return console.log("MIAU");
     }
     cadastraGato(){
-        const nome = prompt("\nInforme o nome do seu gato:");
-        const raca = prompt("\nInforme a raça:");
-        const cor = prompt("\nInforme a cor do seu gato:");
-        const peso = parseFloat(prompt("\nInforme o peso do seu gato:"));
-        const tamanho = parseFloat(prompt("\nInforme o tamanho do seu gato:"));
+        const nome = prompt("Informe o nome do seu gato:");
+        const raca = prompt("Informe a raça:");
+        const cor = prompt("Informe a cor do seu gato:");
+        const peso = parseFloat(prompt("Informe o peso do seu gato:"));
+        const tamanho = parseFloat(prompt("Informe o tamanho do seu gato:"));
         
         const dono = new Humano();
         dono.cadastraHumano();
@@ -68,11 +68,11 @@ class Vaca extends Animal{
         return console.log("MUUUUUUUUUUUUU");
     }
     cadastraVaca(){
-        const nome = prompt("\nInforme o nome da sua vaca:");
-        const raca = prompt("\nInforme a raça:");
-        const cor = prompt("\nInforme a cor da sua vaca:");
-        const peso = parseFloat(prompt("\nInforme o peso da sua vaca:"));
-        const tamanho = parseFloat(prompt("\nInforme o tamanho da sua vaca:"));
+        const nome = prompt("Informe o nome da sua vaca:");
+        const raca = prompt("Informe a raça:");
+        const cor = prompt("Informe a cor da sua vaca:");
+        const peso = parseFloat(prompt("Informe o peso da sua vaca:"));
+        const tamanho = parseFloat(prompt("Informe o tamanho da sua vaca:"));
         
         const dono = new Humano();
         dono.cadastraHumano();
